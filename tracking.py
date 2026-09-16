@@ -30,7 +30,7 @@ from dataclasses import dataclass, field
 
 import numpy as np
 
-from .p29.vision.regions import assign_seats
+from .regions import assign_seats
 
 # Seats, in the fixed cross arrangement, mapped to the engine's player numbers.
 # Player 4 sits off-frame nearest the camera and plays into the south arm.

@@ -3,3 +3,5 @@
 /29-card-game/*
 /card-detection/runs/*
 /runs/*
+/old-synthetic-dataset/*
+/__pycache__/*
