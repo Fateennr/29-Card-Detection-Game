@@ -1,7 +1,7 @@
 # Base code provided by Dipankar Medhi article https://dipankarmedh1.medium.com/real-time-object-detection-with-yolo-and-webcam-enhancing-your-computer-vision-skills-861b97c78993
 # Note press Q to stop the demo
-# MODEL_PATH = "Z:\\coding\\PR project\\card-detection\\runs\\detect\\train13\\weights\\best.pt"
-MODEL_PATH = "Z:\\coding\\PR project\\card-detection\\pretrained-weights\\yolov8m_synthetic.pt"
+MODEL_PATH = "Z:\\coding\\PR project\\runs\\detect\\train\\weights\\best.pt"
+# MODEL_PATH = "Z:\\coding\\PR project\\card-detection\\pretrained-weights\\yolov8m_synthetic.pt"
 VIDEO_PATH = "Z:\\coding\\PR project\\29-card-game\\29-gameplay-1.mp4"
 
 

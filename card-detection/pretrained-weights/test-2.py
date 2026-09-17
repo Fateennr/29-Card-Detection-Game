@@ -3,7 +3,7 @@ import sys
 from ultralytics import YOLO
 import cv2
 
-MODEL_PATH = "Z:\\coding\\PR project\\card-detection\\runs\\detect\\train13\\weights\\best.pt"
+MODEL_PATH = "Z:\\coding\\PR project\\runs\\detect\\train\\weights\\best.pt"
 VIDEO_PATH = "Z:\\coding\\PR project\\29-card-game\\29-gameplay-1.mp4"
 
 
@@ -123,7 +123,7 @@ model = YOLO(current_config["model_path"])
 classNames = current_config["class_names"]
 SHOW_CONFIDENCE = True
 
-img_path = "Z:\\coding\\PR project\\dataset\\images\\val\\000026.jpg"
+img_path = "Z:\\coding\\PR project\\dataset\\29-Card-Detection-Dataset-Annotated\\images\\val\\1ae102e6-29-gameplay-1_-_Converted_frame_00005240.jpg"
 img = cv2.imread(img_path)
 if img is None:
     raise FileNotFoundError(f"Could not read image: {img_path}")
