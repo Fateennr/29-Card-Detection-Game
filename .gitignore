@@ -1,8 +1,12 @@
 /dataset
 /data
 /29-card-game/*
-/card-detection/runs/*
+/card-detection-pretrained/runs-for-base-weights/*
+/card-detection-pretrained/pretrained-weights/*
+/old-approach/dataset/*
+/old-approach/weights/*
 /runs/*
 /old-synthetic-dataset/*
 /__pycache__/*
 tracked_output.mp4
+.env
