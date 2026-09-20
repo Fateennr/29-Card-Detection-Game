@@ -5,4 +5,4 @@
 /runs/*
 /old-synthetic-dataset/*
 /__pycache__/*
-/*.mp4
+tracked_output.mp4
